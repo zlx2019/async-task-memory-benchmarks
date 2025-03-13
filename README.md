@@ -19,6 +19,7 @@
 1 Million async tasks
 - Rust(Tokio): 372M
 - Rust(async_std): 502M
+- Rust(futures): 188M
 - Python: 1.3G
 - Go: 2.5G
 - NodeJS: 556M
