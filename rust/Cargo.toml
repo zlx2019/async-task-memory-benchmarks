@@ -1,0 +1,8 @@
+[package]
+name = "million-task-benchmark-rust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+async-std = {version = "1.13.0", features = ["attributes"]}
+tokio = {version = "1.44.0", features = ["full"]}
