@@ -8,7 +8,6 @@ async function runTasks(numTasks: number) {
     console.log("shutdown.");
   }
   
-  // Deno 命令行参数获取
   const numTasks = parseInt(Deno.args[0]);
   runTasks(numTasks);
   

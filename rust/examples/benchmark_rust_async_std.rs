@@ -1,8 +1,9 @@
 use std::{env, time::Duration};
 use async_std::task;
 
-
-/// use async_std
+///
+/// Rust benchmark for async_std
+/// 
 #[async_std::main]
 async fn main(){
     let num_tasks = env::args().skip(1).next().unwrap().parse().unwrap();

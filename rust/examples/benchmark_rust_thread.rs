@@ -1,7 +1,7 @@
 use std::{env, thread, time::Duration};
 
-/// system thread mode
-/// 受于系统最大开启线程限制
+///
+/// Rust benchmark for thread (os ulimit)
 /// 
 fn main(){
     let num_tasks = env::args().skip(1).next().unwrap().parse().unwrap();
