@@ -16,7 +16,7 @@
 - Deno: 2.2.3
 
 ## Results 
-100k task
+1 Million Tasks
 - Rust(Tokio): 372M
 - Rust(async_std): 502M
 - Python: 1.3G
